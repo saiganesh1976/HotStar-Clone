@@ -102,7 +102,7 @@ body{
 .slides-cont{
     position: relative;
     width: 100%;
-    height: 450px;
+    height: auto;
     padding: 20px 0;
     overflow-x: hidden;
     margin-top: 90px;
@@ -357,7 +357,102 @@ body{
     justify-content: center;
 
 }
-.footer p{
-    text-align: center;
-    color: #252833;
+.footer-links
+{
+    margin: 100px;
+    display: flex;
+    color: #fff;
+    gap:300px;
 }
+.footer-links div p{
+    color: #486172;
+    padding: 10px 0px 0px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer-credits
+{
+    padding: 0px 40px ;
+    display: flex;
+    color: #fff;
+}
+.hotstar-apps
+{
+    padding: 0px 0px 0px 700px;
+    float: right;
+}
+.hotstar-apps img
+{
+    width: 150px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        display: block;
+        font-size: 1em;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 10px;
+    }
+    .logo
+    {
+        height: 35px;
+    }
+    .nav-links
+    {
+        display: none;
+    }
+    .search-box
+    {
+        font-size: 12px;
+    }
+    .rt-container
+    {
+        margin: 30px 0px 0px 60px ;
+    }
+    .sub-btn
+    {
+        margin: 10px 25px;
+    }
+    .movie-title{
+        padding-left: 20px;
+        text-transform: capitalize;
+        margin-top: 10px;
+    }
+    .movie-desc{
+        width: 80%;
+        line-height: 13px;
+        padding-left: 20px;
+        margin-top: 10px;
+        opacity: 0.8;
+    }
+    .footer-links
+    {
+        display: block;
+    }
+    .footer-links div {
+        padding: 20px;
+    }
+    .footer-credits
+    {
+        display: block;
+        text-align: center;
+    }
+    .hotstar-apps
+    {
+        padding: 0px;
+        margin: 20px;
+        width: auto;
+        text-align: center;
+    }
+    .hotstar-apps img 
+    {
+        width: 120px;
+    }
+  }
