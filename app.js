@@ -1,3 +1,4 @@
+
 let carousel = document.querySelector('.slides');
 let sliders = [];
 
